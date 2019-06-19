@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h2>Fruit Shop</h2>
+        </header>
+        <section class="input-details">
+            <div>
+                <h4> I have Rs.<input type="number" class="quantity" min=0 onmouseout="values();"></h4>
+
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>Your total Rs. is<Span></Span></h>
+            </div>
+        </section>
+        <div class="items">
+            <figcaption>
+                <p>Rs: 10</p>
+                <img src="apple.jpg" alt="apple-image">
+                <h5>Apple</h5>
+                <div id="btn">
+                    <div class="minus"><button onclick="dec_apple()">-</button></div>
+                    <input type="number" class="apple" class="quantity" min=0>
+                    <div class="plus"><button onclick="inc_apple()">+</button></div>
+                </div>
+            </figcaption>
+            <figcaption>
+                <p>Rs: 15</p>
+                <img src="orange.jpg" alt="orange-image">
+                <h5>Orange</h5>
+                <div id="btn">
+                    <div class="minus"><button onclick="dec_orange()">-</button></div>
+                    <input type="number" class="orange" class="quantity" min=0>
+                    <div class="plus"><button onclick="inc_orange()">+</button></div>
+                </div>
+            </figcaption>
+            <figcaption>
+                <p>Rs: 7</p>
+                <img src="banana.jpg" alt="banana-image">
+                <h5>banana</h5>
+                <div id="btn">
+                    <div class="minus"><button onclick="dec_banana()">-</button></div>
+                    <input type="number" class="banana" class="quantity" min=0>
+                    <div class="plus"><button onclick="inc_banana()">+</button></div>
+                </div>
+            </figcaption>
+        </div>
+    </main>
+    <script src="script.js"></script>
+   <!-- buttons  kam nhi kr rhy
+ -->
+
+</body>
+
+</html>

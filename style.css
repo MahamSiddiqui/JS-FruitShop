@@ -1,0 +1,121 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-image: linear-gradient(180deg, #454a51 20%, #60687c, #454a51);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.input-details{
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.input-details input{
+    border-radius: 20px 20px;
+    width:80px;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+
+}
+section{
+    background-color: #efe2cc;
+    font-size: 20px;
+   text-align: center;
+    padding: 30px;
+}
+section span{
+    color: red;
+    font-size: 30px;
+}
+.items{
+    background-image: linear-gradient(180deg, #3a3f40 30%, #626a7e, #3f4549);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    text-align: center;
+    padding:35px;
+}
+.items figcaption{
+    margin-left: 30px;
+    margin-right: 30px;
+    border:1px solid black;
+    padding-bottom: 1px;
+    widows: 50px;
+    height: 200px;
+    background-color:#fff; 
+}
+.items figcaption img{
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+}
+.items p{
+    margin: 0px;
+    background-color:#346e34;
+    text-align: center;
+    color:#fff; 
+    font-size: 20px;
+
+}
+.items h5{
+    margin:0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 20px;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+}
+
+#btn input{
+border:none;
+padding: 5px;
+font-size: 20px;
+display: flex;
+flex: 1;
+justify-content: center;
+width: 20px;
+margin-top: 0px;
+outline: none;
+}
+#btn .minus button{
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    flex:1;
+    border:none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    background-color: #424847;
+    outline: none;
+       
+}
+#btn .plus button{
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    flex:1;
+    border:none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff;
+    outline: none;
+    background-color: #424847;
+             
+}
+
+
