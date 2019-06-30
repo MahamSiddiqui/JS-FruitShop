@@ -33,7 +33,7 @@ section{
 }
 section span{
     color: red;
-    font-size: 30px;
+    font-size: 40px;
 }
 .items{
     background-image: linear-gradient(180deg, #3a3f40 30%, #626a7e, #3f4549);
