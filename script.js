@@ -105,4 +105,4 @@ function dec_banana() {
 
     } 
 }
-// document.querySelector("#input").autofocus
+
